@@ -1,0 +1,56 @@
+[
+    {
+        "id": "2024-w02",
+        "week_number": 2,
+        "year": 2024,
+        "published_date": "2024-01-15T10:00:00Z",
+        "highlights": [
+            {
+                "title": "Rise of AI Code Assistants",
+                "description": "This week saw major advancements in AI-powered coding tools, with several new releases focusing on improved code generation and analysis capabilities."
+            },
+            {
+                "title": "Image Generation Breakthroughs",
+                "description": "New developments in AI image generation tools have brought significant improvements in quality and control options."
+            }
+        ],
+        "featured_tools": [
+            {
+                "id": "chatgpt-code-interpreter",
+                "name": "ChatGPT Code Interpreter",
+                "description": "Advanced AI coding assistant with real-time capabilities",
+                "category": "Development",
+                "quality_score": 0.95
+            },
+            {
+                "id": "midjourney",
+                "name": "Midjourney",
+                "description": "Professional-grade AI image generation",
+                "category": "Image Generation",
+                "quality_score": 0.92
+            }
+        ],
+        "trends": [
+            {
+                "name": "Code Generation",
+                "count": 5,
+                "change": "+3"
+            },
+            {
+                "name": "Image Creation",
+                "count": 4,
+                "change": "+2"
+            }
+        ],
+        "categories": [
+            "Development",
+            "Image Generation",
+            "Writing"
+        ],
+        "stats": {
+            "total_new_tools": 3,
+            "avg_quality_score": 0.93,
+            "top_category": "Development"
+        }
+    }
+]

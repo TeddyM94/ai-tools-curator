@@ -1,0 +1,188 @@
+{
+    "chatgpt-code-interpreter": {
+        "name": "ChatGPT Code Interpreter",
+        "description": "Advanced AI coding assistant that can write, analyze, and debug code in real-time. Features include code completion, refactoring suggestions, and multi-language support.",
+        "url": "https://chat.openai.com",
+        "category": "Development",
+        "features": [
+            "Code completion",
+            "Real-time debugging",
+            "Multi-language support",
+            "Code analysis",
+            "Refactoring suggestions"
+        ],
+        "added_date": "2024-01-15T10:00:00Z",
+        "quality_score": 0.95,
+        "last_updated": "2024-01-15T10:00:00Z"
+    },
+    "midjourney": {
+        "name": "Midjourney",
+        "description": "AI-powered image generation through Discord.",
+        "url": "https://midjourney.com",
+        "category": "Image Generation",
+        "features": [
+            "Image Generation",
+            "Art Creation"
+        ],
+        "pricing": "Paid",
+        "added_date": "2024-11-14T00:52:32.676434+00:00",
+        "last_updated": "2024-11-14T00:52:44.706007",
+        "metrics": {
+            "views": 700,
+            "clicks": 350,
+            "rating": 4.5
+        },
+        "quality_details": {
+            "overall_score": 0.7,
+            "scores": {
+                "description_quality": 0.2,
+                "features_quality": 0.8,
+                "url_quality": 1.0,
+                "metadata_quality": 1.0
+            },
+            "passed_threshold": true,
+            "evaluated_at": "2024-11-14T00:52:40.695046"
+        },
+        "quality_score": 0.7
+    },
+    "claude-3": {
+        "name": "Claude 3",
+        "description": "Advanced AI language model offering sophisticated text analysis, writing assistance, and research capabilities with enhanced accuracy and context understanding.",
+        "url": "https://claude.ai",
+        "category": "Writing",
+        "features": [
+            "Text generation",
+            "Content analysis",
+            "Research assistance",
+            "Document summarization",
+            "Multi-language support"
+        ],
+        "added_date": "2024-01-15T10:00:00Z",
+        "quality_score": 0.94,
+        "last_updated": "2024-01-15T10:00:00Z"
+    },
+    "chatgpt": {
+        "name": "ChatGPT",
+        "description": "Advanced language model for conversation and text generation.",
+        "url": "https://chat.openai.com",
+        "category": "Language Models",
+        "features": [
+            "Text Generation",
+            "Conversation",
+            "Code Assistance"
+        ],
+        "pricing": "Free/Premium",
+        "added_date": "2024-11-14T00:52:32.676434+00:00",
+        "last_updated": "2024-11-14T00:52:44.705967",
+        "metrics": {
+            "views": 1000,
+            "clicks": 500,
+            "rating": 4.8
+        },
+        "quality_details": {
+            "overall_score": 0.91,
+            "scores": {
+                "description_quality": 0.7,
+                "features_quality": 1.0,
+                "url_quality": 1.0,
+                "metadata_quality": 1.0
+            },
+            "passed_threshold": true,
+            "evaluated_at": "2024-11-14T00:52:34.681776"
+        },
+        "quality_score": 0.91
+    },
+    "dall-e-3": {
+        "name": "DALL-E 3",
+        "description": "State-of-the-art AI image generation model.",
+        "url": "https://openai.com/dall-e-3",
+        "category": "Image Generation",
+        "features": [
+            "Image Generation",
+            "Art Creation",
+            "Design"
+        ],
+        "pricing": "Paid",
+        "added_date": "2024-11-14T00:52:32.676434+00:00",
+        "last_updated": "2024-11-14T00:52:44.705989",
+        "metrics": {
+            "views": 800,
+            "clicks": 400,
+            "rating": 4.7
+        },
+        "quality_details": {
+            "overall_score": 0.76,
+            "scores": {
+                "description_quality": 0.2,
+                "features_quality": 1.0,
+                "url_quality": 1.0,
+                "metadata_quality": 1.0
+            },
+            "passed_threshold": true,
+            "evaluated_at": "2024-11-14T00:52:36.686225"
+        },
+        "quality_score": 0.76
+    },
+    "claude": {
+        "name": "Claude",
+        "description": "Advanced AI assistant for various tasks.",
+        "url": "https://anthropic.com/claude",
+        "category": "Language Models",
+        "features": [
+            "Text Generation",
+            "Analysis",
+            "Research"
+        ],
+        "pricing": "Free/Premium",
+        "added_date": "2024-11-14T00:52:32.676434+00:00",
+        "last_updated": "2024-11-14T00:52:44.705999",
+        "metrics": {
+            "views": 600,
+            "clicks": 300,
+            "rating": 4.6
+        },
+        "quality_details": {
+            "overall_score": 0.76,
+            "scores": {
+                "description_quality": 0.2,
+                "features_quality": 1.0,
+                "url_quality": 1.0,
+                "metadata_quality": 1.0
+            },
+            "passed_threshold": true,
+            "evaluated_at": "2024-11-14T00:52:38.690785"
+        },
+        "quality_score": 0.76
+    },
+    "github-copilot": {
+        "name": "GitHub Copilot",
+        "description": "AI pair programmer that helps write better code.",
+        "url": "https://github.com/features/copilot",
+        "category": "Development",
+        "features": [
+            "Code Completion",
+            "Documentation",
+            "Problem Solving"
+        ],
+        "pricing": "Paid",
+        "added_date": "2024-11-14T00:52:32.676434+00:00",
+        "last_updated": "2024-11-14T00:52:44.706016",
+        "metrics": {
+            "views": 900,
+            "clicks": 450,
+            "rating": 4.7
+        },
+        "quality_details": {
+            "overall_score": 0.76,
+            "scores": {
+                "description_quality": 0.2,
+                "features_quality": 1.0,
+                "url_quality": 1.0,
+                "metadata_quality": 1.0
+            },
+            "passed_threshold": true,
+            "evaluated_at": "2024-11-14T00:52:42.700422"
+        },
+        "quality_score": 0.76
+    }
+}

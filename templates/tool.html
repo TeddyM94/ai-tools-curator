@@ -1,0 +1,182 @@
+{% extends "base.html" %}
+
+{% block title %}{{ tool.name }} - AI Tools Discovery{% endblock %}
+{% block description %}{{ tool.description[:160] }}{% endblock %}
+
+{% block og_title %}{{ tool.name }} - AI Tool{% endblock %}
+{% block og_description %}{{ tool.description[:160] }}{% endblock %}
+{% block og_image %}{{ tool.image_url or super() }}{% endblock %}
+
+{% block content %}
+<!-- Tool Header -->
+<section class="tool-header py-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item"><a href="/categories/{{ tool.category|lower }}">{{ tool.category }}</a></li>
+            <li class="breadcrumb-item active">{{ tool.name }}</li>
+        </ol>
+    </nav>
+    
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h1 class="mb-3">{{ tool.name }}</h1>
+            <p class="lead">{{ tool.description }}</p>
+            <div class="d-flex gap-3 mb-3">
+                <span class="badge bg-primary">{{ tool.category }}</span>
+                <span class="badge bg-success">Quality: {{ "%.1f"|format(tool.quality_score) }}</span>
+                <span class="badge bg-info">Added: {{ tool.added_date[:10] }}</span>
+            </div>
+            <a href="{{ tool.url }}" class="btn btn-primary" target="_blank" rel="noopener">
+                Visit Website
+            </a>
+        </div>
+        {% if tool.image_url %}
+        <div class="col-md-4">
+            <img src="{{ tool.image_url }}" class="img-fluid rounded" alt="{{ tool.name }}">
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+<!-- Features and Details -->
+<section class="my-5">
+    <div class="row">
+        <!-- Features -->
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="h4 card-title">✨ Features</h2>
+                    <ul class="feature-list">
+                        {% for feature in tool.features %}
+                        <li>{{ feature }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Metrics -->
+        <div class="col-md-6">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h2 class="h4 card-title">📊 Metrics</h2>
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <h3 class="h5">Views</h3>
+                            <p class="h3">{{ metrics.views }}</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="h5">Clicks</h3>
+                            <p class="h3">{{ metrics.clicks }}</p>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="h5">Rating</h3>
+                            <p class="h3">{{ "%.1f"|format(metrics.rating) }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quality Analysis -->
+<section class="my-5">
+    <h2 class="h3 mb-4">🎯 Quality Analysis</h2>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                {% for criterion, score in tool.quality_details.items() %}
+                <div class="col-md-4 mb-3">
+                    <h3 class="h6">{{ criterion|title }}</h3>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" 
+                             style="width: {{ score * 100 }}%"
+                             aria-valuenow="{{ score * 100 }}" 
+                             aria-valuemin="0" 
+                             aria-valuemax="100">
+                            {{ "%.0f"|format(score * 100) }}%
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Similar Tools -->
+<section class="my-5">
+    <h2 class="h3 mb-4">🔄 Similar Tools</h2>
+    <div class="row">
+        {% for similar in similar_tools %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="card-body">
+                    <h3 class="h5 card-title">
+                        <a href="/tools/{{ similar.id }}" class="text-decoration-none">
+                            {{ similar.name }}
+                        </a>
+                    </h3>
+                    <p class="card-text small">{{ similar.description[:100] }}...</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="badge bg-primary">{{ similar.category }}</span>
+                        <small class="text-muted">Score: {{ "%.1f"|format(similar.quality_score) }}</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Updates -->
+<section class="my-5">
+    <div class="card bg-light">
+        <div class="card-body">
+            <h2 class="h4 card-title">📝 Updates</h2>
+            <p class="mb-0">
+                Last updated: {{ tool.last_updated }} |
+                Added: {{ tool.added_date[:10] }} |
+                <a href="https://github.com/yourusername/ai-tools-curator/commits/main/data/tools/{{ tool.id }}.json">
+                    View History
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    // Add tool-specific JavaScript here
+    document.addEventListener('DOMContentLoaded', function() {
+        // Track tool view
+        fetch('/api/track-view', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                tool_id: '{{ tool.id }}',
+                action: 'view'
+            })
+        });
+        
+        // Track outbound clicks
+        document.querySelector('a[href="{{ tool.url }}"]').addEventListener('click', function() {
+            fetch('/api/track-view', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    tool_id: '{{ tool.id }}',
+                    action: 'click'
+                })
+            });
+        });
+    });
+</script>
+{% endblock %}

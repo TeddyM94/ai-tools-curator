@@ -1,0 +1,992 @@
+[
+  {
+    "cpu_usage": 5.8,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 17.292502641677856,
+    "requests_per_minute": 3,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:26:53.369825"
+  },
+  {
+    "cpu_usage": 7.2,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 10.098454475402832,
+    "requests_per_minute": 5,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:31:19.011736"
+  },
+  {
+    "cpu_usage": 5.5,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 2.0897226333618164,
+    "requests_per_minute": 28,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:32:57.453773"
+  },
+  {
+    "cpu_usage": 26.1,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.2396087646484375,
+    "requests_per_minute": 249,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:34:31.347909"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0006892681121826172,
+    "requests_per_minute": 36253,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:47.561107"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.00040841102600097656,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:49.565080"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 9.5367431640625e-05,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:51.568617"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00010204315185546875,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:53.572278"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.00011038780212402344,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:55.575544"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 7.724761962890625e-05,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:57.579216"
+  },
+  {
+    "cpu_usage": 66.7,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.010936260223388672,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:35:59.592787"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 5.1975250244140625e-05,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:36:01.596248"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.000736236572265625,
+    "requests_per_minute": 35545,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:05.516508"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0002510547637939453,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:07.520459"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0003218650817871094,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:09.524491"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0004215240478515625,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:11.528548"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.00024080276489257812,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:13.532546"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0007600784301757812,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:15.536979"
+  },
+  {
+    "cpu_usage": 50.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.011296749114990234,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:17.552052"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 4.792213439941406e-05,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:37:19.555625"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0007431507110595703,
+    "requests_per_minute": 34924,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:24.812709"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.00022864341735839844,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:26.816813"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0002512931823730469,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:28.820675"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.00044417381286621094,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:30.824246"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.00021600723266601562,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:32.828145"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0003161430358886719,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:34.832252"
+  },
+  {
+    "cpu_usage": 75.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.02177882194519043,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:36.858302"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 5.817413330078125e-05,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:38:38.861803"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0007126331329345703,
+    "requests_per_minute": 34246,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:41:59.321167"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0004916191101074219,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:42:01.325476"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00033855438232421875,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:42:03.329447"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.0003364086151123047,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:42:05.333257"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0002894401550292969,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:42:07.337216"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0002601146697998047,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:42:09.344928"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0008492469787597656,
+    "requests_per_minute": 32644,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:43:11.386942"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002789497375488281,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:43:13.391294"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002627372741699219,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:43:15.395240"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.00022077560424804688,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:43:17.399275"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002837181091308594,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:43:19.403362"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.000274658203125,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:43:21.407611"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0008833408355712891,
+    "requests_per_minute": 31185,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:45:59.488275"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.4,
+    "disk_usage": 35.5,
+    "response_time": 0.0002987384796142578,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:46:01.491457"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.00022411346435546875,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:46:03.495406"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0002460479736328125,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:46:05.499404"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0002913475036621094,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:46:07.503426"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00029969215393066406,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:46:09.507408"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.0010416507720947266,
+    "requests_per_minute": 22539,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:49:53.513101"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0002319812774658203,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:49:55.517281"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.4,
+    "disk_usage": 35.5,
+    "response_time": 0.00029969215393066406,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:49:57.521478"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.000263214111328125,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:49:59.525378"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00023293495178222656,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:50:01.529402"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0002658367156982422,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:50:03.533599"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0008122920989990234,
+    "requests_per_minute": 30581,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:51:44.804999"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0003249645233154297,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:51:46.808837"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.00046896934509277344,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:51:48.812704"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00026917457580566406,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:51:50.816806"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00024127960205078125,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:51:52.820698"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0002808570861816406,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-13T23:51:54.824751"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.0007021427154541016,
+    "requests_per_minute": 33519,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:06:20.907693"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.2,
+    "disk_usage": 35.5,
+    "response_time": 0.00026917457580566406,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:06:22.911923"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0009601116180419922,
+    "requests_per_minute": 28503,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:14:26.838250"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0003845691680908203,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:14:28.842103"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.00021767616271972656,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:14:30.846124"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002276897430419922,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:14:32.850173"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.00022721290588378906,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:14:34.854083"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0006916522979736328,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:14:36.858570"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0006513595581054688,
+    "requests_per_minute": 33821,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:20:16.629492"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.0004527568817138672,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:20:18.632979"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0004544258117675781,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:20:20.636951"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0007224082946777344,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:20:22.641255"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002562999725341797,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:20:24.645705"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.00024366378784179688,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:20:26.649940"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0008690357208251953,
+    "requests_per_minute": 28776,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:23:25.948819"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0002601146697998047,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:23:27.954228"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0002624988555908203,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:23:29.958478"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0003027915954589844,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:23:31.962807"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0003848075866699219,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:23:33.967156"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0002474784851074219,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:23:35.971341"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.0008373260498046875,
+    "requests_per_minute": 30911,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:36:34.216409"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.0003864765167236328,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:36:36.220995"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0006670951843261719,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:36:38.225113"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0003237724304199219,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:36:40.229855"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002193450927734375,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:36:42.233932"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002586841583251953,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:36:44.238321"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0007936954498291016,
+    "requests_per_minute": 31496,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:40:40.469936"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0002579689025878906,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:40:42.474402"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.7,
+    "disk_usage": 35.5,
+    "response_time": 0.0002639293670654297,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:40:44.478746"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.4,
+    "disk_usage": 35.5,
+    "response_time": 0.0004372596740722656,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:40:46.482386"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.00033092498779296875,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:40:48.486842"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.8,
+    "disk_usage": 35.5,
+    "response_time": 0.0002772808074951172,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:40:50.490893"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.0008111000061035156,
+    "requests_per_minute": 31628,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:44:38.986058"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.00030303001403808594,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:44:40.989484"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.2,
+    "disk_usage": 35.5,
+    "response_time": 0.000232696533203125,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:44:42.993620"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.0002777576446533203,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:44:44.998140"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.2,
+    "disk_usage": 35.5,
+    "response_time": 0.0007104873657226562,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:44:47.002801"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.0002560615539550781,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:44:49.007778"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.0007207393646240234,
+    "requests_per_minute": 32912,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:49:16.484696"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.001173257827758789,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:49:18.489884"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.4,
+    "disk_usage": 35.5,
+    "response_time": 0.0003383159637451172,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:49:20.495578"
+  },
+  {
+    "cpu_usage": 100.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0005233287811279297,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:49:22.500188"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.0002675056457519531,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:49:24.504775"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.0,
+    "disk_usage": 35.5,
+    "response_time": 0.00029468536376953125,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:49:26.508884"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.5,
+    "disk_usage": 35.5,
+    "response_time": 0.0006618499755859375,
+    "requests_per_minute": 34364,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:32.678012"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0003490447998046875,
+    "requests_per_minute": 59,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:34.682248"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.6,
+    "disk_usage": 35.5,
+    "response_time": 0.0002791881561279297,
+    "requests_per_minute": 44,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:36.686701"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.00024580955505371094,
+    "requests_per_minute": 39,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:38.691181"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.0007100105285644531,
+    "requests_per_minute": 37,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:40.695892"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 27.9,
+    "disk_usage": 35.5,
+    "response_time": 0.000690460205078125,
+    "requests_per_minute": 35,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:42.701256"
+  },
+  {
+    "cpu_usage": 77.8,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 0.04691290855407715,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:44.752948"
+  },
+  {
+    "cpu_usage": 0.0,
+    "memory_usage": 28.1,
+    "disk_usage": 35.5,
+    "response_time": 6.341934204101562e-05,
+    "requests_per_minute": 34,
+    "errors_count": 0,
+    "timestamp": "2024-11-14T00:52:46.756604"
+  }
+]
