@@ -1,0 +1,13 @@
+# Basic Jekyll configuration
+title: AI Tools Discovery
+description: Your #1 AI Tools Discovery Platform
+baseurl: "/ai-tools-curator"
+url: "https://teddym94.github.io"
+
+# Build settings
+markdown: kramdown
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor

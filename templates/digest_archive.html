@@ -1,0 +1,198 @@
+{% extends "base.html" %}
+
+{% block title %}Weekly AI Tools Digest Archive - AI Tools Discovery{% endblock %}
+{% block description %}Browse our archive of weekly AI tools digests, featuring the best new AI tools and trends.{% endblock %}
+
+{% block content %}
+<!-- Archive Header -->
+<section class="archive-header py-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active">Weekly Digest Archive</li>
+        </ol>
+    </nav>
+    
+    <div class="text-center py-4 bg-light rounded">
+        <h1>Weekly AI Tools Digest Archive</h1>
+        <p class="lead">A curated history of AI tool discoveries and trends</p>
+        <div class="stats d-flex justify-content-center gap-4 mt-4">
+            <div class="stat-item">
+                <h3>{{ stats.total_digests }}</h3>
+                <p>Issues</p>
+            </div>
+            <div class="stat-item">
+                <h3>{{ stats.total_tools }}</h3>
+                <p>Tools Featured</p>
+            </div>
+            <div class="stat-item">
+                <h3>{{ stats.total_categories }}</h3>
+                <p>Categories</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Latest Digest -->
+{% if digests %}
+<section class="my-5">
+    <h2 class="h3 mb-4">🎯 Latest Digest</h2>
+    <div class="card">
+        <div class="card-body">
+            <h3 class="h4">Week {{ digests[0].week_number }}, {{ digests[0].year }}</h3>
+            <p class="text-muted">Published {{ digests[0].published_date }}</p>
+            
+            <!-- Highlights -->
+            <div class="mt-4">
+                <h4 class="h5">🌟 Highlights</h4>
+                <ul class="list-unstyled">
+                    {% for highlight in digests[0].highlights %}
+                    <li class="mb-3">
+                        <strong>{{ highlight.title }}</strong>
+                        <p class="mb-1">{{ highlight.description }}</p>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <!-- Featured Tools -->
+            <div class="mt-4">
+                <h4 class="h5">🔥 Featured Tools</h4>
+                <div class="row">
+                    {% for tool in digests[0].featured_tools %}
+                    <div class="col-md-6 mb-3">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="h6">
+                                    <a href="/tools/{{ tool.id }}" class="text-decoration-none">
+                                        {{ tool.name }}
+                                    </a>
+                                </h5>
+                                <p class="small mb-2">{{ tool.description[:100] }}...</p>
+                                <span class="badge bg-primary">{{ tool.category }}</span>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <a href="/digests/{{ digests[0].id }}" class="btn btn-primary mt-3">
+                Read Full Digest
+            </a>
+        </div>
+    </div>
+</section>
+{% endif %}
+
+<!-- Digest Archive -->
+<section class="my-5">
+    <h2 class="h3 mb-4">📚 Archive</h2>
+    
+    <!-- Year/Month Filter -->
+    <div class="filters mb-4">
+        <div class="d-flex gap-3">
+            <select class="form-select" id="yearFilter">
+                {% for year in stats.years %}
+                <option value="{{ year }}">{{ year }}</option>
+                {% endfor %}
+            </select>
+            <select class="form-select" id="monthFilter">
+                <option value="all">All Months</option>
+                {% for month in range(1, 13) %}
+                <option value="{{ month }}">{{ month|month_name }}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+    
+    <!-- Digest List -->
+    <div class="digest-list">
+        {% for year, year_digests in digests|groupby('year') %}
+        <div class="year-group mb-4" data-year="{{ year }}">
+            <h3 class="h4 mb-3">{{ year }}</h3>
+            
+            {% for digest in year_digests %}
+            <div class="card mb-3 digest-card" 
+                 data-month="{{ digest.published_date|month }}"
+                 data-year="{{ year }}">
+                <div class="card-body">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <h4 class="h5 mb-1">Week {{ digest.week_number }}</h4>
+                            <p class="text-muted mb-0">{{ digest.published_date }}</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-2"><strong>{{ digest.highlights|length }} Highlights</strong></p>
+                            <p class="mb-0 text-muted">
+                                {{ digest.featured_tools|length }} Tools • 
+                                {{ digest.categories|length }} Categories
+                            </p>
+                        </div>
+                        <div class="col-md-2 text-md-end">
+                            <a href="/digests/{{ digest.id }}" class="btn btn-outline-primary btn-sm">
+                                Read More
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<!-- Newsletter -->
+<section class="my-5 p-5 bg-light rounded">
+    <div class="row align-items-center">
+        <div class="col-md-7">
+            <h2>📫 Never Miss an Update</h2>
+            <p class="lead">Get the weekly AI tools digest delivered to your inbox.</p>
+        </div>
+        <div class="col-md-5">
+            <form action="/subscribe" method="POST" class="d-flex gap-2">
+                <input type="email" name="email" class="form-control" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const yearFilter = document.getElementById('yearFilter');
+    const monthFilter = document.getElementById('monthFilter');
+    const digestCards = document.querySelectorAll('.digest-card');
+    const yearGroups = document.querySelectorAll('.year-group');
+    
+    function filterDigests() {
+        const selectedYear = yearFilter.value;
+        const selectedMonth = monthFilter.value;
+        
+        yearGroups.forEach(yearGroup => {
+            const year = yearGroup.dataset.year;
+            if (year === selectedYear) {
+                yearGroup.style.display = 'block';
+                
+                const yearDigests = yearGroup.querySelectorAll('.digest-card');
+                yearDigests.forEach(digest => {
+                    if (selectedMonth === 'all' || digest.dataset.month === selectedMonth) {
+                        digest.style.display = 'block';
+                    } else {
+                        digest.style.display = 'none';
+                    }
+                });
+            } else {
+                yearGroup.style.display = 'none';
+            }
+        });
+    }
+    
+    yearFilter.addEventListener('change', filterDigests);
+    monthFilter.addEventListener('change', filterDigests);
+});
+</script>
+{% endblock %}
